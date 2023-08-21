@@ -1,4 +1,129 @@
-.colour-rectangle{
-    background-color: bisque;
-    height: 50px;
+.home-container{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 0.5fr);
+    font-size: var(--titleFont);
+}
+
+.home-container > h1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    grid-column: 1/18;
+    grid-row: 2;
+    width: 100%;
+}
+
+.home-container > h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 4/20;
+    grid-row: 3/5;
+    width: 100%;
+}
+
+.color-rectangle{
+    background-color: var(--highlightFour);
+    grid-column: 4/20;
+    grid-row: 4/6;
+    max-width: 450px;
+    max-height: 40px;
+    
+}
+
+.home-container > p{
+    grid-column: 3/20;
+    grid-row: 8/18;
+    color: var(--lighterText);
+    font-family: var(--textFont);
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.see-work-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    font-weight: 400;
+    grid-column: 10/21;
+    font-weight: 600;
+    grid-row: 19;
+    width: 100%;
+}
+
+
+.home-container > h1, .home-container > h2{
+    font-size: 1.95rem;
+}
+
+.home-container > img {
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 460px) {
+    .home-container > h2, .home-container > h1{
+        font-size: 2.4rem;
+    }
+
+    .home-container > h2 {
+        justify-content: flex-start;
+    }
+
+    .home-container > p {
+        font-size: 1.25rem;
+    }
+
+   
+}
+
+
+@media only screen and (min-width: 800px){
+
+    .home-container{
+        height: 100vh;
+
+    }
+
+    .home-container > h2, .home-container > h1{
+        font-size: 4rem;
+        font-weight: 540;
+    }
+
+
+    .home-container > p {
+        font-size: 1.25rem;
+    }
+
+
+    .background-circle{
+        display: flex;
+        background-color: var(--highlightOpacity50);
+        grid-column: 7/14;
+        grid-row: 4/21;
+        border-radius: 50%;
+       height: 450px;
+      width: 500px;
+    }
+
+    .color-rectangle{
+        max-width: 580px;
+    }
+
+    .home-container > p{
+        grid-column: 13/20;
+        grid-row: 8/18;
+       
+    }
+
+    .home-container > img {
+        display: block;
+        grid-column: 4/14;
+        grid-row: 7/21;
+        height: 100%;
+    }
+    
 }
