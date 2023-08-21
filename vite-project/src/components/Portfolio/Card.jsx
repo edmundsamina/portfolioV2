@@ -1,4 +1,5 @@
 import "./portfolio.css";
+import { v4 as uuidv4 } from 'uuid';
 
 export function Card(props) {
   return (
@@ -11,7 +12,7 @@ export function Card(props) {
         <div className="tags-container">
           {props.tags &&
             props.tags.map((tag) => {
-              return <span>{tag.toUpperCase()}</span>;
+              return <span key={uuidv4()}>{tag.toUpperCase()}</span>;
             })}
         </div>
 

@@ -1,5 +1,6 @@
 import { Card } from "./Card";
 import { portfolioData } from "../../projectData";
+import { v4 as uuidv4 } from 'uuid';
 import './portfolio.css';
 
 console.log(portfolioData)
@@ -33,7 +34,7 @@ export function Portfolio() {
         {portfolioData.filter((data)=>{
           return data.featured === true
         }).map((card)=> {
-          return <Card key={Math.random()*1212121} tags={card.tags} img = {card.img} title={card.title} desc={card.desc} url={card.url} repo={card.repo}/>
+          return <Card key={uuidv4()} tags={card.tags} img = {card.img} title={card.title} desc={card.desc} url={card.url} repo={card.repo}/>
         })}
       </div>
       <h3 className="other-projects">
