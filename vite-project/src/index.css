@@ -100,3 +100,20 @@ h6 {
   --titleFont: "Jacques";
   --textFont: "Montserrat";
 }
+
+#root{
+  position: relative;
+
+}
+/* #blobs{
+background-image: url('./assets/blobs/mobileBlobs.png');
+background-size: cover;
+background-repeat: no-repeat;
+position: fixed;
+height: 100%;
+width: 100%;
+z-index: -1;
+filter: blur(500px);
+backdrop-filter: blur(5px);
+
+} */
