@@ -105,15 +105,33 @@ h6 {
   position: relative;
 
 }
-/* #blobs{
+#blobs{
 background-image: url('./assets/blobs/mobileBlobs.png');
-background-size: cover;
-background-repeat: no-repeat;
+background-size:cover;
+background-repeat:repeat-y;
 position: fixed;
 height: 100%;
 width: 100%;
 z-index: -1;
-filter: blur(500px);
+filter: blur(120px);
 backdrop-filter: blur(5px);
 
-} */
+}
+
+@media only screen and (min-width: 600px) {
+  #blobs{
+    background-image: url('./assets/blobs/ipadBlobs.png');
+  }
+}
+
+
+@media only screen and (min-width: 800px) {
+  #blobs{
+    background-image: url('./assets/blobs/biggerIpadBlobs.png');
+    filter: blur(160px);
+  
+  }
+}
+
+
+
