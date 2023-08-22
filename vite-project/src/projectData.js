@@ -32,7 +32,7 @@ export const portfolioData = [
     {
       img:  portfoliov1 ,
       title: "Portfolio V1",
-      desc: "I built my first personal website independently using React and Figma to showcase skills. Despite flaws, the project strengthened programming abilities and problem-solving skills tremendously. It increased confidence to manage an application start to finish. This initial website laid the foundation for better projects. Designing in Figma proved beneficial for redesigning the current, improved website version two. The enhancements are a testament to the invaluable knowledge gained tackling the first website solo.",
+      desc: "I built my first personal website independently using React and Figma to showcase skills. Despite flaws, the project strengthened programming abilities and problem-solving skills tremendously. It increased confidence to manage an application start to finish. This initial website laid the foundation for better projects. Designing in Figma proved beneficial for redesigning the current, improved website version two.",
       url: "https://amina-edmunds.netlify.app/",
       repo: "https://github.com/edmundsamina/personal-portfolio",
       featured: true, 
