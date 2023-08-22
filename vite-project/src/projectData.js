@@ -20,7 +20,7 @@ export const portfolioData = [
     {
       img:  faith ,
       title: "Faith Pottery",
-      desc: "I paired with a colleague during a School of Code hackathon to build my first app with TypeScript - a weather app using a 3rd party API. The project let us practice fetching data, conditional rendering, and deepen our TypeScript skills. See the weather where you are by clicking below",
+      desc: "This website represents my first collaborative programming project with a UI/UX designer. I wanted to purely hone coding skills instead of handling both design and development. My designer friend provided mockups, letting me focus on implementation. With minimal functionality, the site's purpose was bringing her vision public.",
       url: "https://faith-pottery.netlify.app/",
       repo: "https://github.com/edmundsamina/faith-pottery-website",
       featured: false, 
@@ -32,11 +32,11 @@ export const portfolioData = [
     {
       img:  portfoliov1 ,
       title: "Portfolio V1",
-      desc: "For my first group project at the School of Code, we built a social platform to help new coders connect and collaborate. I've since revisited the project to overhaul the design and add new features.You can checkout the original MVP in the github readMe! Otherwise checkout the redesign via the live link.",
+      desc: "I built my first personal website independently using React and Figma to showcase skills. Despite flaws, the project strengthened programming abilities and problem-solving skills tremendously. It increased confidence to manage an application start to finish. This initial website laid the foundation for better projects. Designing in Figma proved beneficial for redesigning the current, improved website version two. The enhancements are a testament to the invaluable knowledge gained tackling the first website solo.",
       url: "https://amina-edmunds.netlify.app/",
       repo: "https://github.com/edmundsamina/personal-portfolio",
       featured: true, 
-      tags: ['React', 'CSS', 'JavaScript', 'Node.JS', 'CRA', 'side project']
+      tags: ['React', 'CSS', 'JavaScript', 'Node.JS', 'CRA', 'Side project', 'Responsive']
 
     },
     {
@@ -56,7 +56,7 @@ export const portfolioData = [
       url: "https://canele-bakery.netlify.app/",
       repo: "https://github.com/edmundsamina/CANELE-BAKERY.git",
       featured: false,
-      tags: ['JavaScript', 'React', 'MongoDB', 'CSS', 'Local Storage', 'Web Only', 'Node.JS', 'Side Project', 'Pair Programming']
+      tags: ['JavaScript', 'React', 'MongoDB', 'CSS', 'Local Storage', 'Web Only', 'Node.JS',  'Pair Programming']
 
     },
     
