@@ -127,8 +127,24 @@ backdrop-filter: blur(5px);
 
 @media only screen and (min-width: 800px) {
   #blobs{
-    background-image: url('./assets/blobs/biggerIpadBlobs.png');
+    background-image: url('./assets/blobs/800pxBlobs.png');
     filter: blur(160px);
+  
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #blobs{
+    background-image: url('./assets/blobs/1200pxBlobs.png');
+    filter: blur(80px);
+  
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #blobs{
+    background-image: url('./assets/blobs/1600pxBlobs.png');
+    filter: blur(140px);
   
   }
 }

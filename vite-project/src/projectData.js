@@ -62,7 +62,7 @@ export const portfolioData = [
     
     {
       img:  weatherwidget ,
-      title: "Weather Widget",
+      title: "Weather App",
       desc: "I paired with a colleague during a School of Code hackathon to build my first app with TypeScript - a weather app using a 3rd party API. The project let us practice fetching data, conditional rendering, and deepen our TypeScript skills. See the weather where you are by clicking below",
       url: "https://pastel-weather-widget.netlify.app/",
       repo: "https://github.com/edmundsamina/bc13_w12d5_hackathon_react-typescript-amina-em.git",
