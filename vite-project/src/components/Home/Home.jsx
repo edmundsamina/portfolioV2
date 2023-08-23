@@ -6,7 +6,7 @@ export function Home(){
   return (
         <div className="home-container">
         <div className='background-circle'></div>
-            <h1><span><svg width="40" height="3" viewBox="0 0 94 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <h1><span className='svg-line'><svg height="8" viewBox="0 0 94 3" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line x1="0.864258" y1="1.98284" x2="93.288" y2="1.98284" stroke="black" strokeWidth="3"/>
             </svg>
             </span>
@@ -20,7 +20,7 @@ export function Home(){
 </p>
 
             <img src={homeImage}/>
-            <span className='see-work-nav'> My Work <img src={downArrow}/> <span><svg width="40" height="3" viewBox="0 0 94 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <span className='see-work-nav'> My Work <a href="#projects"><img src={downArrow}/> </a><span className='svg-line'><svg height="8" viewBox="0 0 94 3" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line x1="0.864258" y1="1.98284" x2="93.288" y2="1.98284" stroke="black" strokeWidth="2"/>
             </svg></span></span>
         </div>

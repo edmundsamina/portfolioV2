@@ -39,8 +39,24 @@
   padding: 10px;
 }
 
-.card-body-container > h3 {
+.card-title{
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(5, 0.2fr);
+}
+.card-title > h3 {
   font-family: var(--titleFont);
+  grid-column: 1/11;
+  grid-row: 1/5;
+}
+
+.card-title-rectangle{
+  width: 100%;
+  background-color: var(--highlightFour);
+  height: 100%;
+  grid-column: 1/11;
+  grid-row: 3/6;
 }
 .card-desc {
   font-family: var(--textFont);
@@ -139,7 +155,7 @@
     justify-content: space-between;
   }
   .card-body-container > h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .card-desc{

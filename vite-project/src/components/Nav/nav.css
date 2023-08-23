@@ -12,11 +12,34 @@
 
 .nav-container > ul{
     width: 60%;
-    max-width: 150px;
+    max-width: 180px;
     gap: 10px;
     list-style: none;
 }
 
 .nav-container > ul > li{
     font-family: var(--textFont);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+
+a:hover, .nav-container > ul > li:hover{
+    color: var(--highlightThree);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1800px){
+    .nav-container > ul > li{
+        font-size: 1.2rem;
+    }
+    
+    .nav-container > img{
+        height:60px;
+    }
 }

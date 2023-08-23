@@ -7,13 +7,12 @@ console.log(portfolioData)
 
 export function Portfolio() {
   return (
-    <div className="portfolio-container">
+    <div  id="projects" className="portfolio-container">
        <h3 className="featured">
           {" "}
-          <span>
+          <span className='svg-line'>
             <svg
-              width="40"
-              height="3"
+              height="8" 
               viewBox="0 0 94 3"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -41,10 +40,9 @@ export function Portfolio() {
           {" "}
          {" "}
           Other Projects{" "}
-          <span>
+          <span className='svg-line'>
             <svg
-              width="40"
-              height="3"
+              height="8" 
               viewBox="0 0 94 3"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

@@ -62,6 +62,10 @@
     display: none;
 }
 
+.svg-line{
+    width: 40px;
+}
+
 
 
 @media only screen and (min-width: 460px) {
@@ -114,8 +118,10 @@
     }
 
     .home-container > p{
-        grid-column: 13/20;
+        grid-column: 11/20;
         grid-row: 8/18;
+        font-size: 1rem;
+
        
     }
 
@@ -126,4 +132,24 @@
         height: 100%;
     }
     
+    .featured, .other-projects, .see-work-nav{
+        font-size: 1.5rem;
+        padding: 20px 0px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px){ 
+    .home-container > p{
+        font-size: 1.6rem;
+    }
+    .featured, .other-projects, .see-work-nav{
+        font-size: 1.8rem;
+        padding: 20px 0px;
+    }
+    .svg-line{
+        width: 60px;
+       
+    }
 }
